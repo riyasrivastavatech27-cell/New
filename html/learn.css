@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+}
+.n{
+    height: 25px;
+    width:23px;
+    margin:1px;
+
+}
+.key{
+    margin-left: 150px;
+}
+.box{
+    margin-top: 30px;
+    width:100px;
+    height:27px;
+    margin-left: 138px;
+    margin-bottom:3px ;
+     border: 1px solid gray;
+    outline: none;
+}
+#last{
+    margin-top: 1px;
+    margin-left:162.5px;
+}
+.box:focus{
+    font-weight: 20;
+    border:1px solid blue;
+    color:rgb(46, 45, 45);
+}

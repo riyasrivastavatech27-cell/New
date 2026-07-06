@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href = "learn.css">
+</head>
+<body>
+    <input type="text" class="box" readonly ><br>
+    <div class="key">
+   <button class="n" id="C" onclick="
+currentDisplay = '';
+document.querySelector('.box').value = currentDisplay;
+">
+C
+</button>
+    <button class="n" id="one"  onclick ="currentDisplay += '1';
+    document.querySelector('.box').value = currentDisplay; ">1</button>
+    <button class="n" id="two"  onclick ="currentDisplay += '2';
+    document.querySelector('.box').value = currentDisplay;">2</button>
+    <br>
+    <button class="n" id="plus" onclick="
+currentDisplay += '+';
+document.querySelector('.box').value = currentDisplay;
+">
++ </button>
+   <button class="n" id="three" onclick="currentDisplay += '3'; 
+   document.querySelector('.box').value = currentDisplay;
+">3</button>
+    <button class="n" id="four" onclick="
+currentDisplay += '4';
+document.querySelector('.box').value = currentDisplay;
+">
+4</button>
+    <br>
+    <button class="n" id="minus" onclick="currentDisplay += '-'; 
+   document.querySelector('.box').value = currentDisplay;
+" >-</button>
+    <button class="n" id="five" onclick="currentDisplay += '5'; 
+   document.querySelector('.box').value = currentDisplay;
+">5</button>
+    <button class="n" id="six" onclick="currentDisplay += '6'; 
+   document.querySelector('.box').value = currentDisplay;
+">6</button>
+    <br>
+         <button class="n" id="into"  onclick="currentDisplay += '*'; 
+   document.querySelector('.box').value = currentDisplay;
+">*</button>
+    <button class="n" id="seven"  onclick="currentDisplay +='7'; 
+   document.querySelector('.box').value = currentDisplay;
+">7</button>
+    <button class="n" id="eight"  onclick="currentDisplay += '8'; 
+   document.querySelector('.box').value = currentDisplay;
+">8</button>
+    <br>
+    
+    <button class="n" id="divide" onclick="currentDisplay += '/'; 
+   document.querySelector('.box').value = currentDisplay;
+">/</button>
+    <button class="n" id="equal"  onclick=" currentDisplay=eval(currentDisplay); 
+   document.querySelector('.box').value = currentDisplay;
+">=</button>
+    <button class="n" id="nine"  onclick="currentDisplay += '9'; 
+   document.querySelector('.box').value = currentDisplay;
+">9</button>
+    <br> </div>
+    <div id="last">
+    <button class="n" id="zero" onclick="currentDisplay += '0'; 
+   document.querySelector('.box').value = currentDisplay;
+">0</button>
+    <button class="n" id="point"  onclick="currentDisplay += '.'; 
+   document.querySelector('.box').value = currentDisplay;
+" >.</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
