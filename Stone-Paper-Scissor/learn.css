@@ -1,0 +1,39 @@
+#h{
+    margin-left: 150px;
+    color:blueviolet;
+}
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    height:150px;
+    width:150px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.button{
+    margin-left:150px ;
+    margin-top:30px ;
+}
+#stone{
+    height:35px;
+    width:70px;
+    margin-left: 5px;
+    background-color:antiquewhite;
+    color:darkblue;
+}
+#paper{
+     height:35px;
+    width:70px;
+    margin-left: 5px; 
+    background-color:beige;
+    color:darkgreen;
+}
+#Scissors{
+      height:35px;
+    width:70px;
+    margin-left: 5px;
+    background-color:bisque;
+    color:darkred;
+}

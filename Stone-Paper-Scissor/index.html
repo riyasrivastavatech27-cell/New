@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Paper-Scissors</title>
+    <link rel = "stylesheet" href="learn.css"></rel>
+</head>
+<body>
+    <h1 id="h">Stone paper Scissors game</h1>
+    <img src="images/rocks.image.png">
+    <div class="button">
+    <button id="stone" onclick="
+        console.log('you have chosen stone');
+        let randomNumber=Math.random() * 3; 
+        let choice;
+        if (randomNumber > 0 && randomNumber <= 1){
+            choice = 'Stone';
+            console.log('Computer choice is Stone');
+        }
+        else if(randomNumber>1 && randomNumber<=2){
+            choice = 'Paper';
+            console.log('Computer choice is Paper');
+        }
+        else {
+            choice = 'Scissors';
+            console.log('Computer choice is Scissors');
+        }
+        const ComputerChoice = `Computer's choice is ${choice}`;
+        let msg;
+if(choice === 'Paper'){
+    msg=`Computer Won`;
+}
+else if(choice === 'Stone'){
+    msg=`It's a tie `;
+}
+else {
+    msg='You won';
+}
+    alert(`your choice is Stone, ${ComputerChoice} so ${msg}`); 
+        " >Stone</button>
+    <button id="paper"
+    onclick=" console.log('you have chosen Paper');
+   let randomNumber1 = Math.random() * 3;
+let choice1;
+
+if (randomNumber1 >= 0 && randomNumber1 < 1) {
+    choice1 = 'Stone';
+} else if (randomNumber1 >= 1 && randomNumber1 < 2) {
+    choice1 = 'Paper';
+} else {
+    choice1 = 'Scissors';
+}
+
+const ComputerChoice1 = `Computer's choice is ${choice1}`;
+
+let msg1;
+
+if (choice1 === 'Scissors') {
+    msg1 = 'Computer Won';
+} else if (choice1 === 'Paper') {
+    msg1 = `It's a tie`; } else {
+    msg1 = 'You Won';
+}
+
+alert(`Your choice is Paper, ${ComputerChoice1}, so ${msg1}`);"
+      >Paper</button>
+    <button id="Scissors" onclick="
+    let randomNumber2 = Math.random() * 3;
+let choice2;
+
+if (randomNumber2 >= 0 && randomNumber2 < 1) {
+    choice2 = 'Stone';
+} else if (randomNumber2 >= 1 && randomNumber2 < 2) {
+    choice2 = 'Paper';
+} else {
+    choice2 = 'Scissors';
+}
+
+const ComputerChoice2 = `Computer's choice is ${choice2}`;
+
+let msg2;
+
+if (choice2 === 'Stone') {
+    msg2 = 'Computer Won';
+} else if (choice2 === 'Scissors') {
+    msg2 = `It's a tie`;
+} else {
+    msg2 = 'You Won';
+}
+alert(`your choice is Scissors, ${ComputerChoice2} so ${msg2}`)">Scissors</button>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
